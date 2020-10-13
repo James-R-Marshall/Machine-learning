@@ -7,7 +7,7 @@ def main():
     lr = reg.LinearRegression()
     arr = np.array([[1,1],[2,3],[3,1],[4,2],[5,2],[6,1],[7,3]])
     Y   = np.array([1,4,3,5,8,7,10])
-    lr.fit(arr,Y)
+    lr.fit(arr,Y) 
     print(lr.predict([7,1]))
 
     # nearest neighbor algorithm test
