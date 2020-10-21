@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FindS.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="KNNAlgorythm.py" />
     <Compile Include="LinearRegression.py" />
     <Compile Include="Machine_learning.py" />
