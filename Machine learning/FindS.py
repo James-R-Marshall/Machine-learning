@@ -1,4 +1,4 @@
-import enum
+
 import numpy as np
 class FindS:
     """This class is for taking a specific hyhpothesis and generalizing it until it matches all sucessful cases"""

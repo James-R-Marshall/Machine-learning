@@ -1,13 +1,11 @@
 import LinearRegression as reg
 import KNNAlgorythm as nn
 import FindS as F
+import CandidateElimination as CE
 import numpy as np
 
 def main():
- Fs = F.FindS()
- Fs.fit(Fs.exdata)
- Fs.printHypothesis()
-
- print(Fs.predict([1,3,2,1]))
-
+    Can = CE.CandElim()
+    print(Can.fit(Can.exdata))
+    
 main()

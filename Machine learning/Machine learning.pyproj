@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CandidateElimination.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="FindS.py">
       <SubType>Code</SubType>
     </Compile>
